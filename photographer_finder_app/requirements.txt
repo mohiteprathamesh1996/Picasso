@@ -1,0 +1,25 @@
+# Backend dependencies
+Flask
+Flask-Cors
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-JWT-Extended
+psycopg2-binary
+
+# Geolocation and validation
+geopy
+marshmallow
+marshmallow-sqlalchemy
+
+# Payment processing
+stripe
+
+# Frontend API support
+requests
+
+# Development and testing
+pytest
+pytest-flask
+pytest-mock
+coverage
+python-dotenv
