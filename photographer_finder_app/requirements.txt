@@ -23,3 +23,6 @@ pytest-flask
 pytest-mock
 coverage
 python-dotenv
+
+
+pandas

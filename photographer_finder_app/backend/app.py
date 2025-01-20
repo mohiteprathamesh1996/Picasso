@@ -13,7 +13,9 @@ migrate = Migrate(app, db)
 # Example route
 @app.route('/')
 def home():
-    return jsonify(message="Welcome to the Uber for Photographers app!")
+    return jsonify(
+        message="Welcome to the Uber for Photographers app!"
+        )
 
 if __name__ == '__main__':
     app.run(debug=True)
